@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    font-family: 'Overpass', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+}
+
+.image-1 {
+    width: 30px;
+    padding: 5px;
+    background: hsl(213, 19%, 28%);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.btn-field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.btn-field button {
+    padding: 15px 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(213, 19%, 28%);
+    color: hsl(217, 12%, 63%);
+}
+
+.btn-field button:hover {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 700;
+}
+
+.btn-field button::after {
+    background-color: hsl(216, 12%, 54%);
+}
+
+.sbt-btn {
+    width: 100%;
+    padding: 15px 0;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.sbt-btn:hover {
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+
+
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(213, 19%, 18%);
+    padding: 30px;
+    border-radius: 15px;
+    width: 400px;
+}
+
+.container2 h1, p {
+    text-align: center;
+}
+
+.image-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.choicebox {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 28%);
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 13px;
+}
+
+.hide {
+    display: none;
+}   
